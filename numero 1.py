@@ -1,4 +1,5 @@
-r=5
-pi=3,1416
+r=int(input("digite valor de r  "))
+pi=float(input("digite valor de pi  "))
 a=(pi*(r**2))
-Print(a)
+print ("el valor de a es:  ",a)
+print(a)
