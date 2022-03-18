@@ -1,0 +1,5 @@
+ganados=int(input("digite el numero de partidos ganados "))
+empatados=int(input("digite el numero de nuemeros empatados "))
+perdidos=int(input("digite el numero de partidos perdidos "))
+total=((ganados*3)+(empatados*1))
+print(total)
