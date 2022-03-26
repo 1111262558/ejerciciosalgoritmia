@@ -1,6 +1,12 @@
-cadena="hello-world"
-for i in cadena:(0,1)
-if cadena.isalpha():
-        print("la cadena contiene solo caracteres alfabeticos ")
-if not cadena.isalpha():
-        print("la cadena contiene caracteres no alfabeticos ")
+contar=0
+texto=input("digite:  ")
+alfabeto="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuWwXxYyZz"
+for i in texto:
+    if i in alfabeto:
+        contar+=1
+        
+    else:
+        print("se encontraron caracteres no alfabeticos")
+        break
+if contar==len(texto):
+    print("se encontraron que todos los caracteres son alfabeticos")
